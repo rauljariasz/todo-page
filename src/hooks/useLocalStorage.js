@@ -25,6 +25,7 @@ export function useLocalStorage(itemName, initialValue) {
         setError(true)
       }
     }, 2000);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const saveItem = (newItem) => {
